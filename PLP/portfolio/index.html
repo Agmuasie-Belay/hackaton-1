@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />  
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Agmuasie</a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="navbar" role="navigation">
+        <label for="menu-toggle"><a href="#home">Home</a></label>
+        <label for="menu-toggle"><a href="#about">About</a></label>
+        <label for="menu-toggle"><a href="#skills">Skills</a></label>
+        <label for="menu-toggle"><a href="#portfolio">Portfolio</a></label>
+        <label for="menu-toggle"><a href="#education">Education</a></label>
+        <label for="menu-toggle"><a href="#contact">Contact</a></label>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Agmuasie Belay</h1>
+        <div class="typewriter-container">
+          <h3>
+            <span class="">
+              <span class="text"> Frontend Developer</span>
+              <span class="text"> STEM Educator</span>
+              <span class="text"> ML Enthusiast</span></span
+            >
+          </h3>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://github.com/Agmuasie-Belay"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i id="github-icon" class="bxl bx-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/agmuasie-belay/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bxl bx-linkedin"></i
+          ></a>
+          <a href="#"><i class="bxl bx-youtube"></i> </a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="bg-image.webp" alt="Agmuasie Belay's Photo" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="radar">
+        <div class="sweep"></div>
+        <div class="ping"></div>
+        <div
+          class="blip"
+          style="top: 30%; left: 70%; animation-delay: 1s"
+        ></div>
+        <div
+          class="blip"
+          style="top: 60%; left: 40%; animation-delay: 2.5s"
+        ></div>
+        <div
+          class="blip"
+          style="top: 45%; left: 50%; animation-delay: 3.5s"
+        ></div>
+        <img src="bg-image.webp" alt="Agmuasie Belay's Photo" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          My name is Agmuasie Belay developer based in Addis Ababa, Ethiopia. I
+          have worked on a wide range of front-end and machine learning
+          projects, from library management to plant disease detection
+          platforms, with a focus on creating clean, well-crafted interfaces
+          that not only look great but also provide a seamless user experience.
+        </p>
+        <div class="download-btn">
+          <a href="Agmuasie_CV.pdf" download
+            ><i class="bx bxs-arrow-down-stroke-circle"></i>
+            <span class="dl-text">Download CV</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skills-category">
+          <h3><i class="bx bx-code"></i> Programming Languages</h3>
+          <div class="skill">
+            <span>HTML</span>
+            <div class="bar"><div class="fill" style="width: 95%"></div></div>
+          </div>
+          <div class="skill">
+            <span>CSS</span>
+            <div class="bar"><div class="fill" style="width: 93%"></div></div>
+          </div>
+          <div class="skill">
+            <span>JavaScript</span>
+            <div class="bar"><div class="fill" style="width: 90%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Python</span>
+            <div class="bar"><div class="fill" style="width: 88%"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3><i class="bx bx-layer"></i> Frameworks & Libraries</h3>
+          <div class="skill">
+            <span>React</span>
+            <div class="bar"><div class="fill" style="width: 90%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Tailwind CSS</span>
+            <div class="bar"><div class="fill" style="width: 88%"></div></div>
+          </div>
+          <div class="skill">
+            <span>TensorFlow</span>
+            <div class="bar"><div class="fill" style="width: 89%"></div></div>
+          </div>
+          <div class="skill">
+            <span>SciKit Learn</span>
+            <div class="bar"><div class="fill" style="width: 90%"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3><i class="bx bx-group"></i> Soft Skills</h3>
+          <div class="skill">
+            <span>Problem Solving</span>
+            <div class="bar"><div class="fill" style="width: 90%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Time Management</span>
+            <div class="bar"><div class="fill" style="width: 85%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Communication</span>
+            <div class="bar"><div class="fill" style="width: 90%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Teamwork</span>
+            <div class="bar"><div class="fill" style="width: 95%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="library manager app.webp" alt="Library Management App Screenshot" />
+          <div class="portfolio-layer">
+            <h4>Library Manager System</h4>
+            <p>
+              A web-based application designed to efficiently manage book
+              inventories, user registrations, and borrowing/returning
+              processes. It streamlines library operations with features like
+              search, categorization, and admin control.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="career service.webp" alt="Career Service App Screenshot" />
+          <div class="portfolio-layer">
+            <h4>Career Services App</h4>
+            <p>
+              An interactive platform built to support students and graduates in
+              navigating their career paths. It offers personalized job
+              matching, resume building tools, networking features, and access
+              to training resources.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="potato disease detection.webp" alt="Potato Disease Detection App Screenshot" />
+          <div class="portfolio-layer">
+            <h4>Potato Disease Detection</h4>
+            <p>
+              A machine learning-powered solution for detecting potato plant
+              diseases from leaf images. It enhances early diagnosis and
+              supports farmers with actionable insights to reduce crop loss.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="education">
+      <h2 class="heading">Education & Certifications</h2>
+      <div class="education-container">
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <i class="bx bx-certification icon"></i>
+              <h3>Machine Learning Specialization</h3>
+              <p>Stanford/DeepLearning.AI | Aug 2024</p>
+            </div>
+            <div class="flip-back">
+              <p>Supervised/Unsupervised ML, NN, Advanced ML</p>
+              <a
+                href="https://www.coursera.org/verify/12345XYZ"
+                target="_blank"
+                class="btn"
+              >
+                <i class="bx bx-link-external"></i> View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <i class="bx bx-certification icon"></i>
+              <h3>Meta Front-End Developer</h3>
+              <p>Coursera | Sep 2023</p>
+            </div>
+            <div class="flip-back">
+              <p>React, HTML/CSS, JS, UX/UI, Git & more</p>
+              <a
+                href="https://www.coursera.org/verify/12345XYZ"
+                target="_blank"
+                class="btn"
+              >
+                <i class="bx bx-link-external"></i> View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <i class="bx bxs-graduation icon"></i>
+              <h3>MSc in Control System Engineering</h3>
+              <p>Bahir Dar University</p>
+            </div>
+            <div class="flip-back">
+              <p>2017 – 2019<p>
+              <p>
+                <strong>Thesis:</strong><br />Neural Network Based Flux Estimation and Fractional Order Sliding Mode Torque Control of Induction Motor
+              </p>
+              <a
+                href="https://www.coursera.org/verify/12345XYZ"
+                target="_blank"
+                class="btn"
+              >
+                <i class="bx bx-link-external"></i> View Thesis
+              </a>
+              <button></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <i class="bx bxs-graduation icon"></i>
+              <h3>BSc in Electrical & Computer Eng</h3>
+              <p>University of Gondar</p>
+            </div>
+            <div class="flip-back">
+              <p>2010 – 2015</p>
+              <p><strong>Project:</strong><br />Intelligent Home Automation</p>
+              <a
+                href="https://www.coursera.org/verify/12345XYZ"
+                target="_blank"
+                class="btn"
+              >
+                <i class="bx bx-link-external"></i> View Degree
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#" role="form">
+        <div class="form-container">
+          <div class="input-field">
+            <input type="text" id="name" class="name" name="name" required />
+            <label for="name">Full Name</label>
+          </div>
+          <div class="input-field">
+            <input type="email" id="email" class="email" name="email" required />
+            <label for="email">Email Address</label>
+          </div>
+          <div class="input-field">
+            <input type="number" id="number" class="number" name="number" required />
+            <label for="number">Phone Number</label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="sub" class="sub" name="sub" required />
+            <label for="sub">Email Subject</label>
+          </div>
+          <div class="input-field span-2">
+            <textarea
+              name="msg"
+              class="msg"
+              cols="30"
+              rows="7"
+              required
+            ></textarea>
+            <label for="msg">Your Message</label>
+          </div>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <div>
+        <p>Copyright &copy; 2025 Agmuasie Belay. All rights reserved.</p>
+      </div>
+      <div class="iconTop">
+        <a href="#home" class="btn"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>

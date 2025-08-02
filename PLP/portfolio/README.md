@@ -22,7 +22,7 @@ A responsive, modern portfolio website showcasing Agmuasie Belay’s expertise a
 - HTML5, CSS3, JavaScript
 - Boxicons (locally hosted)
 - Responsive layout using Flexbox and media queries
-- Deployed with **Vercel**. You can [click here](https://portfolio-agmuasie.vercel.app/) to check it.
+- Deployed with **Vercel**. You can [**click here**](https://portfolio-agmuasie.vercel.app/) to check it.
 
 ## 📂 Folder Structure.
 

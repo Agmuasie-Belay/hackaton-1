@@ -22,17 +22,17 @@ A responsive, modern portfolio website showcasing Agmuasie Belay’s expertise a
 - HTML5, CSS3, JavaScript
 - Boxicons (locally hosted)
 - Responsive layout using Flexbox and media queries
-- Deployed with [**Vercel**](https://portfolio-agmuasie.vercel.app/) 
+- Deployed with **Vercel**. You can [click here](https://portfolio-agmuasie.vercel.app/) to check it.
 
-## 📂 Folder Structure
+## 📂 Folder Structure.
 
- └── my-portfolio/
- ├── index.html
- ├── styles.css
- ├── assets/
- │ ├── pictures/
- │ └── boxicons.min.css
- └── Agmuasie_CV.pdf
+ └── my-portfolio/<br>
+ ├── index.html<br>
+ ├── styles.css<br>
+ ├── assets/<br>
+ │ ├── pictures/<br>
+ │ └── boxicons.min.css<br>
+ └── Agmuasie_CV.pdf<br>
 
 ## 📌 How to Use
 
@@ -42,12 +42,12 @@ A responsive, modern portfolio website showcasing Agmuasie Belay’s expertise a
 
 ## For deployment:
 
-    Use Vercel and set the root directory where the index file is located.
+  Use Vercel and set the root directory where the index file is located.
 
-    Or host it on GitHub Pages with custom build steps.
+  Or host it on GitHub Pages with custom build steps.
 
 ## 📬 Contact Me
 
-<img src="https://boxicons.com/static/img/favicon.ico" width="16"/> **GitHub** | [Agmuasie-Belay](https://github.com/Agmuasie-Belay) 
-<img src="https://boxicons.com/static/img/favicon.ico" width="16"/> **LinkedIn** | [linkedin.com/in/agmuasie-belay](https://linkedin.com/in/agmuasie-belay) 
-<img src="https://boxicons.com/static/img/favicon.ico" width="16"/> **Email** | [agmuasie.belay71@gmail.com](mailto:agmuasie.belay71@gmail.com) 
+<img src="https://boxicons.com/static/img/favicon.ico" width="16"/> **GitHub** | [Agmuasie-Belay](https://github.com/Agmuasie-Belay) <br>
+<img src="https://boxicons.com/static/img/favicon.ico" width="16"/> **LinkedIn** | [linkedin.com/in/agmuasie-belay](https://linkedin.com/in/agmuasie-belay) <br>
+<img src="https://boxicons.com/static/img/favicon.ico" width="16"/> **Email** | [agmuasie.belay71@gmail.com](mailto:agmuasie.belay71@gmail.com) <br>

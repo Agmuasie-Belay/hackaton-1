@@ -52,11 +52,7 @@ h3 {
   left: 0;
   width: 100%;
   padding: 2rem 10%;
-  background: linear-gradient(
-    to bottom right,
-    var(--second-bg-color),
-    var(--bg-color)
-  );
+  background: var(--second-bg-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -373,6 +369,7 @@ h3 {
 }
 .skills-container {
   display: flex;
+  
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
@@ -380,6 +377,7 @@ h3 {
 
 .skills-category {
   width: 100%;
+  min-height: 55vh;
   background: var(--second-bg-color);
   padding: 4rem 2rem;
   padding: 3rem;
@@ -391,16 +389,13 @@ h3 {
   border: 0.1rem solid var(--main-color);
   transform: scale(1.01);
 }
-.skills-box i {
-  font-size: 7rem;
-  color: var(--main-color);
-}
 
 .skills-category:hover {
   border: 1px solid #0f0;
 }
 
 .skills-category h3 i {
+  font-size: 4rem;
   color: #0f0;
 }
 .skill {
@@ -579,7 +574,7 @@ h3 {
 .icon {
   font-size: 5rem;
   margin-bottom: 2rem;
-  color: var(--main-color);
+  color: cyan;
 }
 .flip-front p {
   font-size: 2rem;

@@ -369,7 +369,6 @@ h3 {
 }
 .skills-container {
   display: flex;
-  
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
@@ -379,34 +378,33 @@ h3 {
   width: 100%;
   min-height: 55vh;
   background: var(--second-bg-color);
-  padding: 4rem 2rem;
-  padding: 3rem;
+  padding: 2.5rem 2rem;
   border-radius: 2rem;
   box-shadow: 0 0 0.5rem var(--main-color);
 }
 
-.skills-box:hover {
-  border: 0.1rem solid var(--main-color);
-  transform: scale(1.01);
-}
-
 .skills-category:hover {
   border: 1px solid #0f0;
+  border: 0.1rem solid var(--main-color);
+  transform: scale(1.01);
 }
 
 .skills-category h3 i {
   font-size: 4rem;
   color: #0f0;
 }
+
 .skill {
   margin-bottom: 1.6rem;
   justify-content: left;
 }
+
 .skill span {
   color: var(--text-color);
   font-size: 1.4rem;
   justify-self: left;
 }
+
 .bar {
   width: 100%;
   height: 0.6rem;
@@ -522,7 +520,6 @@ h3 {
   width: 100%;
   height: 200px;
   perspective: 1000px;
-  filter: drop-shadow(0 0 2px rgba(0, 229, 255, 0.8));
 }
 
 .flip-inner {
@@ -538,6 +535,11 @@ h3 {
 
 .flip-front,
 .flip-back {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   backface-visibility: hidden;
   position: absolute;
   border-radius: 2rem;
@@ -547,21 +549,13 @@ h3 {
 }
 
 .flip-front {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  background: var(--second-bg-color);
+  box-shadow: inset -5px 5px 10px rgba(7, 104, 153, 0.8);
 }
 
 .flip-back {
-  width: 100%;
-  height: 200px;
   transform: rotateY(180deg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background: repeating-radial-gradient(
     circle,
     #293750 0,
@@ -569,6 +563,7 @@ h3 {
     var(--second-bg-color) 30px,
     var(--second-bg-color) 60px
   );
+  box-shadow: 0 0 1rem var(--main-color);
 }
 
 .icon {
@@ -826,7 +821,7 @@ textarea:valid ~ label {
 /* Responsive design */
 @media (max-width: 768px) {
   section {
-    padding: 2rem;
+    padding:4rem 2rem 7rem ;
   }
 
   .home {
@@ -845,17 +840,23 @@ textarea:valid ~ label {
     margin-left: 5rem;
   }
 
-  .home-img{
-    padding-top:7rem;
+  .home-img {
+    padding-top: 7rem;
   }
-  .about
-  .heading {
+.about{
+  padding: 7rem 3rem;
+  text-align: center;
+}
+  .about .heading {
     font-size: 3rem;
   }
 
   .skills-container {
-    flex-direction: column;
-    gap: 2rem;
+    display: grid;
+  }
+  .skills-category {
+    padding:rem;
+    min-height: auto;
   }
   .portfolio-container {
     width: 100%;
@@ -865,6 +866,7 @@ textarea:valid ~ label {
     align-items: center;
     gap: 2rem;
   }
+
   .portfolio-container .portfolio-box {
     width: 100%;
     margin: 0 4rem;
@@ -872,8 +874,9 @@ textarea:valid ~ label {
 
   .portfolio-box img {
     width: 100%;
-    height: 45vh;
+    height: 30vh;
   }
+
   .education-container {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
@@ -923,7 +926,11 @@ textarea:valid ~ label {
   .form {
     height: fit-content;
   }
+  .contact, .skills, .about {
+    min-height: fit-content;
+  }
   .footer {
+  
     padding: 2rem;
   }
 }
